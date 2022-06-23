@@ -2908,7 +2908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGamePlay: 0
   uiManager: {fileID: 250255277}
-  gameMaxTime: 10
+  gameMaxTime: 30
   gameStartTime: 0
   dataSaveSystem: {fileID: 1889591731}
   boxTransformList:

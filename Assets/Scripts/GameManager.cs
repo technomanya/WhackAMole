@@ -117,6 +117,7 @@ public class GameManager : MonoBehaviour
     }
     private void GameOver()
     {
+        currentMole.SetActive(false);
         dataSaveSystem.SavePointData(pointAll.ToString());
         dataSaveSystem.SaveAllData();
         isGamePlay = false;
